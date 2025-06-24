@@ -1,0 +1,52 @@
+.div1{
+    width: 400px;
+    height: 116px;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border-radius: 20px;
+line-height: 116px;
+margin: 0 auto;
+
+
+}
+
+body{
+    background-color: green;
+}
+
+.div2{
+    height: 777px;
+    width: 451px;
+    border-radius: 20px;
+    margin: 100px auto;
+    background-color: black;
+    padding-top: 30px;
+    box-sizing: border-box;
+    
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 150px;
+    margin: 0 auto;
+}
+
+.yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 150px;
+    margin: 60px auto;
+}
+
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 150px;
+    margin: 60px auto;
+}
