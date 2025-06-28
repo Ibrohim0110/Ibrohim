@@ -1,52 +1,91 @@
-.div1{
-    width: 400px;
-    height: 116px;
-    font-size: 48px;
-    color: white;
-    text-align: center;
-    background-color: blue;
-    border-radius: 20px;
-line-height: 116px;
-margin: 0 auto;
-
-
-}
-
-body{
-    background-color: green;
-}
-
-.div2{
-    height: 777px;
-    width: 451px;
-    border-radius: 20px;
-    margin: 100px auto;
-    background-color: black;
-    padding-top: 30px;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
 }
 
-.red{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    border-radius: 150px;
-    margin: 0 auto;
+.div1{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    background-color: gray;
+
 }
 
-.yellow{
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-    border-radius: 150px;
-    margin: 60px auto;
+
+.quticha{
+    width: 30px;
+    height: 70px;
+    background-color: wheat;
+    border-radius: 5px;
 }
 
-.green{
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    border-radius: 150px;
-    margin: 60px auto;
+.box1{
+    width: 250px;
+    height: 90px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.box2{
+    width: 250px;
+    height: 90px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.box3{
+     width: 250px;
+    height: 90px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box4{
+     width: 250px;
+    height: 90px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box6{
+     width: 250px;
+    height: 90px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.box5{
+     width: 250px;
+    height: 90px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }
